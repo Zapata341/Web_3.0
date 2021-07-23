@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "Juegos";
+}
+
+<section class="Sec-Juegos">
+    <div class="titulo">
+        <h2 > GOTY 2020 - 2019 - 2018 </h2>
+    </div>
+    <div class="explicacion">
+        <h4 align="center">Traducción del inglés-The Game Award for Game of the Year es un premio otorgado anualmente por The Game Awards al juego que se considera el mejor de ese año calendario. El proceso comienza con varias docenas de publicaciones y sitios web de videojuegos, elegidos por el comité asesor de los Game Awards, para actuar como jurado cada año.</h4>
+    </div>
+    <div class="Juegos">
+        <div class="Card-juegos">
+            <img src= "@ViewData["Alfa1"]" class="imagen-about-us">
+            <h4>@ViewData["Charlie1"]</h4>
+            <p>@ViewData["Beta1"]</p>
+            <a href="#">Leer mas</a>
+        </div>
+        <div class="Card-juegos">
+            <img src= "@ViewData["Alfa2"]" class="imagen-about-us">
+            <h4>@ViewData["Charlie2"]</h4>
+            <p>@ViewData["Beta2"]</p>
+            <a href="#">Leer mas</a>
+        </div>
+        <div class="Card-juegos">
+            <img src= "@ViewData["Alfa3"]" class="imagen-about-us">
+            <h4>@ViewData["Charlie3"]</h4>
+            <p>@ViewData["Beta3"]</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+</section>
+
+

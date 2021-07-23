@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Juegos";
+
+}
+ 
+<section class="Sec-Juegos">
+    <div class="titulo">
+        <h2 >Aqui encontraras las mejores selecciones de juegos </h2>
+    </div>
+    <div class="Juegos">
+        <div class="Card-juegos">
+            <img src= "@ViewData["Charlie1"]" class="imagen-about-us">
+            <h4>@ViewData["Alfa1"]</h4>
+            <p>@ViewData["Beta1"]</p>
+            <a href="#">Leer mas</a>
+        </div>
+        <div class="Card-juegos">
+            <img src= "@ViewData["Charlie2"]" class="imagen-about-us">
+            <h4>@ViewData["Alfa2"]</h4>
+            <p>@ViewData["Beta2"]</p>
+            <a href="#">Leer mas</a>
+        </div>
+        <div class="Card-juegos">
+            <img src= "@ViewData["Charlie3"]" class="imagen-about-us">
+            <h4>@ViewData["Alfa3"]</h4>
+            <p>@ViewData["Beta3"]</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+</section>
+
+<section class="Search-Game">
+    <div class="search-design"> 
+        <div class="titulo">
+            <h2>Busca aqui tus juegos favoritos :</h2>
+        </div>
+        <form class="search-button" method="post">   
+            <input type="text" name="game" placeholder="Tap to search">
+            <button type="submit">Buscar</button>
+        </form>
+</section>
+
+<section class="buscar-juego">
+    <div class="container-game">
+        <figure>
+            <img src="@ViewData["Charlie4"]" alt="">
+            <div class="capa">
+                <h3>@ViewData["Alfa4"]</h3>
+                <p>@ViewData["Beta4"]</p>
+            </div>
+        </figure>
+    </div>
+</section>
+
+<section class="Delete-game">
+    <div class="search-design"> 
+        <div class="titulo">
+            <h2>Deseas eliminar el juego buscado? coloca su nombre aqui</h2>
+        </div>
+        <form class="search-button" method="post">   
+            <input type="text" name="delete" placeholder="Delete game">
+            <button type="submit">Eliminar</button>
+        </form>
+</section>
+
+<section class="Add-game">
+    <div class="Add-design"> 
+        <div class="titulo">
+            <h2>Deseas agregar un juego? escribe aqui el nombre</h2>
+        </div>
+        <form class="Add-button" method="post">   
+            <input type="text" name="add_name" placeholder="nombre del juego">
+            <input type="textarea" name="add_info" placeholder="descripcion del juego">
+            <input type="text" name="add_img" placeholder="/img/name.jpg">
+            <button type="submit">Añadir</button>
+        </form>
+</section>
+
+<section class="buscar-juego">
+    <div class="container-game">
+        <figure>
+            <img src="@ViewData["Charlie6"]" alt="">
+            <div class="capa">
+                <h3>@ViewData["Alfa6"]</h3>
+                <p>@ViewData["Beta6"]</p>
+            </div>
+        </figure>
+    </div>
+</section>
+
+
